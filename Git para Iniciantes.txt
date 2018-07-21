@@ -35,3 +35,12 @@ Salvar mudanças do projeto
 Para ignorar arquivos para nao sofrerem alterações de versão
 	Criar arquivo .gitignore e adicionar o nome/extensão dos arquivos la
 
+Para pular a etapa do git add
+	git commit -a -m "<Mensagem de identificação do commit>"
+
+Para consultar todas as alterações feitas em um arquivo que está em
+seu diretório de trabalho mas que ainda nao foi adicionado para sua stagearea.
+	git diff
+
+Para consultar o que há na stagearea
+	git diff --staged
