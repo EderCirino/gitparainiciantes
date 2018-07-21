@@ -44,3 +44,15 @@ seu diretório de trabalho mas que ainda nao foi adicionado para sua stagearea.
 
 Para consultar o que há na stagearea
 	git diff --staged
+
+Visualizar alterações de todos  os commits do projeto
+	git log
+
+Visualiza os commits e os diffs de cada commit
+	git log -p
+
+Filtrar quantidade de commits
+	git log -p -1,2,3,4...n
+
+Abrir interface grafica do git
+	gitk
