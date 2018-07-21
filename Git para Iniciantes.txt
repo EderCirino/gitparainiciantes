@@ -1,0 +1,13 @@
+Git para Iniciantes.
+
+Git é um sistema de controle de versão distribuido desenvolvido pelo Linus Torvalds.
+
+********************************
+**********COMANDOS GIT**********
+********************************
+
+Entrar com email e senha para poder usar o git no computador
+
+git config --global user.name "<endereço de email do git>"
+git config --global user.senha "<senha para acesso>"
+
