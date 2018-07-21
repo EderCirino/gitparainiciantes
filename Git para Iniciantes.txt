@@ -8,6 +8,30 @@ Git é um sistema de controle de versão distribuido desenvolvido pelo Linus Tor
 
 Entrar com email e senha para poder usar o git no computador
 
-git config --global user.name "<endereço de email do git>"
-git config --global user.senha "<senha para acesso>"
+	git config --global user.name "<endereço de email do git>"
+	git config --global user.senha "<senha para acesso>"
+
+Para iniciar um repositório
+	git init
+
+Para verificar se há mudanças no repositório
+	git status
+
+Adicionar um unico arquivo para
+	git add <nome do arquivo>
+
+Adicionar todos os arquivos com a mesma extensão
+	git add *.txt
+	git add *.png
+	git add *.jpg
+	git add *.pdf
+
+adicionar todos os arquivos do diretório
+	git add .
+
+Salvar mudanças do projeto
+	git commit -m "<Mensagem de identificação do commit>"
+
+Para ignorar arquivos para nao sofrerem alterações de versão
+	Criar arquivo .gitignore e adicionar o nome/extensão dos arquivos la
 
