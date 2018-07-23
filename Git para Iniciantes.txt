@@ -56,3 +56,9 @@ Filtrar quantidade de commits
 
 Abrir interface grafica do git
 	gitk
+
+Mostrar somente o código de cada commit e a mensagem de cada commit
+	git log --pretty=oneline
+
+Editar ultimo commit feito
+	
