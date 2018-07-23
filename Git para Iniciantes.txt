@@ -61,4 +61,10 @@ Mostrar somente o código de cada commit e a mensagem de cada commit
 	git log --pretty=oneline
 
 Editar ultimo commit feito
-	
+	git commit --amend -m "<Mensagem do commit>"
+
+Para tirar um arquivo da stageArea
+	git reset HEAD <nome do arquivo>
+
+Para descartar as mudanças no diretório de trabalho
+	git checkout -- <nome do arquivo>	
