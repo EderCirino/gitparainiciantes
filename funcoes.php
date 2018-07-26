@@ -9,6 +9,9 @@ function func2(){
 	return false;
 }
 
-function branch_teste($num=0){
+function branch_teste($id){
+	if ($id>0) {
+		return false;
+	}
 	return true;
 }
