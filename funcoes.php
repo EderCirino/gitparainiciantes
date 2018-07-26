@@ -9,6 +9,6 @@ function func2(){
 	return false;
 }
 
-function branch_teste(){
+function branch_teste($num=0){
 	return true;
 }
