@@ -93,3 +93,5 @@ Fazer a copia de arquivos do branch atual para o branch criado
 Criar branch e fazer a cópia dos arquivos de uma só vez
 	git checkout -b <nome do branch que quer criar>
 
+Trocar de branch
+	git checkout <nome do branch>
