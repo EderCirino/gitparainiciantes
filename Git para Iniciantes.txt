@@ -95,3 +95,9 @@ Criar branch e fazer a cópia dos arquivos de uma só vez
 
 Trocar de branch
 	git checkout <nome do branch>
+
+Mesclar dois branches(precisa estar no branch de destino)
+	git merge <nome do branch que deseja puxar alterações>
+
+Deletar Branch
+	git branch -d <nome do branch>
