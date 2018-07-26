@@ -84,3 +84,12 @@ Para saber detalhes de uma tag
 Visualizar e fazer a troca dos arquivos através das tags
 	git checkout <nome da tag>
 
+Criar um branch
+	git branch <nome do branch>
+
+Fazer a copia de arquivos do branch atual para o branch criado
+	git checkout <nome do novo branch>
+
+Criar branch e fazer a cópia dos arquivos de uma só vez
+	git checkout -b <nome do branch que quer criar>
+
