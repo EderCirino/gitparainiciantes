@@ -29,6 +29,18 @@ Adicionar todos os arquivos com a mesma extensão
 adicionar todos os arquivos do diretório
 	git add .
 
+Clonar um repositório
+	git clone <endereço do repositório>
+
+Enviar alterações para o repositório Remoto
+	git push -u origin master
+
+Puxar alterações do repositório Remoto
+	git pull origin master
+
+Puxar alterações de um repositório para um branch separado
+	git fetch origin <nome do branch>
+
 Salvar mudanças do projeto
 	git commit -m "<Mensagem de identificação do commit>"
 
@@ -101,3 +113,6 @@ Mesclar dois branches(precisa estar no branch de destino)
 
 Deletar Branch
 	git branch -d <nome do branch>
+
+Criar um repositório para ser disponibilizado para outras máquinas 
+	git init --bare
