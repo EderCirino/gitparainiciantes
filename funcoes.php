@@ -8,3 +8,7 @@ function func1(){
 function func2(){
 	return false;
 }
+
+function branch_teste(){
+	return true;
+}

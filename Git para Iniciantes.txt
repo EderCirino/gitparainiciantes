@@ -68,3 +68,19 @@ Para tirar um arquivo da stageArea
 
 Para descartar as mudanças no diretório de trabalho
 	git checkout -- <nome do arquivo>	
+
+Remover arquivos
+	git rm <nome do arquivo>
+
+Criar Tags
+	git tag -a <nome da tag> "<mensagem>"
+
+Criar uma tag com um commit antigo
+	git tag -a <nome da tag> <chave do commit> -m "<mensagem>"
+
+Para saber detalhes de uma tag
+	git show <nome da tag>
+
+Visualizar e fazer a troca dos arquivos através das tags
+	git checkout <nome da tag>
+
