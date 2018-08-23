@@ -8,8 +8,8 @@ Git é um sistema de controle de versão distribuido desenvolvido pelo Linus Tor
 
 Entrar com email e senha para poder usar o git no computador
 
-	git config --global user.name "<endereço de email do git>"
-	git config --global user.senha "<senha para acesso>"
+	git config --global user.name "<nome do usuário>"
+	git config --global user.email "<email do usuário>"
 
 Para iniciar um repositório
 	git init
